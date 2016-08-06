@@ -1,4 +1,4 @@
-let zipcodeToBarcode = require('./goto-zipcode-to-barcode');
+let barcodeToZipcode = require('./goto-barcode-to-zipcode');
 
 function mainPage() {
     return {
@@ -7,7 +7,7 @@ function mainPage() {
 3.退出
 请选择1～3：`,
         newMapping:{
-            "1": zipcodeToBarcode
+            "2": barcodeToZipcode
         }
     }
 }

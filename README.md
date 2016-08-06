@@ -1,5 +1,24 @@
-step2：实现zipcode转换barcode
+step3：实现barcode转换zipcode
 ============================
-出现的问题：
-对于readline还是有点一知半解，所以接下来要好好理解以下它的用法；
-main函数写的不熟练，后面还得多多练习一下。
+过程与step2相似
+
+
+
+
+
+创建小项目并提交到组织-------------------
+在文件根目录下：
+git init
+touch .gitignore
+把不交的文件echo "xxx" >> .gitignore
+git add .
+git commit -m "..."
+hub create meetingroom-team4/step-baixue
+git remote -v
+有以git开头的路径
+git push origin master
+hub browse
+查看组织里有没有你，这部应该就完了-------
+
+
+
